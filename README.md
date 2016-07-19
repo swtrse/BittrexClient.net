@@ -4,9 +4,9 @@ This is a .net wrapper for the Bittrex Api
 The wrapper is based on .NET Framework 4.6.1. For each api-method there is a blocking and non blocking method available. The non blocking mehtod ends with Async. If there are optional parameters at the api-method, these parameters are also optional, in this case there are method overloads without the optional parameter availabe or you can just set the parameter to 'null' ('Nothing' in VB). For compatibility default parameters are not used, method overloads are made instead.
 
 To use the wrapper you have to
-1) Reference the assembly Goldfinger.Bittrex.dll in the project.
-2) Set the token
-3) Call the methods
+1. Reference the assembly Goldfinger.Bittrex.dll in the project.
+2. Set the token
+3. Call the methods
 
 Please use the issue function on GitHub to file a request/issue/suggestions.
 
@@ -18,6 +18,7 @@ I tried to use the same names for the same thing all around the api planing if I
 Localization of error messages is also possible. If someone do want to add a language I can extract the strings for translation.
 
 Minimum blocking example:
+```
 namespace ConsoleApplication
 {
 	using System;
@@ -53,9 +54,11 @@ namespace ConsoleApplication
 		}
 	}
 }
+```
 
 Minimum non blocking example:
-namespace ConsoleApplication2
+```
+namespace ConsoleApplication
 {
 	using System;
 	using System.Collections.ObjectModel;
@@ -92,3 +95,4 @@ namespace ConsoleApplication2
 		}
 	}
 }
+```

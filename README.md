@@ -77,7 +77,7 @@ namespace ConsoleApplication
 			//Creating a new token while a other token already exists will override the existing token.
 			BittrexAccessToken.New("yourApiKey", "yourApiSecret");
 
-			//Not very usefull to use the blocking Wait() here but I think you get the point.
+			//Not very clever to use the blocking Wait() here but I think you get the point.
 			Run().Wait();
 
 			Console.ReadLine();

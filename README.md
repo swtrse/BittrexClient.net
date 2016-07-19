@@ -47,7 +47,7 @@ namespace ConsoleApplication
 			Console.WriteLine("All Bittrex Currencies");
 			foreach (Currency currency in currencies)
 			{
-				//If you do not unsertand this line lookup the new language features of C# on the internet.
+				//If you do not understand this line lookup the new language features of C# on the internet.
 				Console.WriteLine($"{currency.CurrencyAcronym.PadLeft(5)}| Name: {currency.CurrencyName}, Type: {currency.CoinType}, Active: {currency.IsActive}, Minimum confirmation: {currency.MinimumConfirmation}, Transaction fee: {currency.TransactionFee:N8}");
 			}
 
@@ -94,7 +94,7 @@ namespace ConsoleApplication
 			Console.WriteLine("All Bittrex Currencies");
 			foreach (Currency currency in currencies)
 			{
-				//If you do not unsertand this line lookup the new language features of C# on the internet.
+				//If you do not understand this line lookup the new language features of C# on the internet.
 				Console.WriteLine($"{currency.CurrencyAcronym.PadLeft(5)}| Name: {currency.CurrencyName}, Type: {currency.CoinType}, Active: {currency.IsActive}, Minimum confirmation: {currency.MinimumConfirmation}, Transaction fee: {currency.TransactionFee:N8}");
 			}
 		}

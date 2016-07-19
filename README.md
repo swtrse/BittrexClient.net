@@ -1,8 +1,11 @@
 # BittrexClient.net
 This is a .net wrapper for the Bittrex Api
 
-The wrapper is based on .NET Framework 4.6.1. For each api-method there is a blocking and non blocking method available. The non blocking mehtod ends with Async. If there are optional parameters at the api-method, these parameters are also optional, in this case there are method overloads without the optional parameter availabe or you can just set the parameter to 'null' ('Nothing' in VB). For compatibility default parameters are not used, method overloads are made instead.
-For everyone who uses ReSharper I added the ReSharper annotations for better code analysis. If you do not use ReSharper now you should really consider it.
+The wrapper is based on .NET Framework 4.6.1. 
+
+For each api-method there is a blocking and non blocking method available. The non blocking mehtod ends with Async. If there are optional parameters at the api-method, these parameters are also optional, in this case there are method overloads without the optional parameter availabe or you can just set the parameter to 'null' ('Nothing' in VB). For compatibility default parameters are not used, method overloads are made instead.
+
+For everyone who uses ReSharper I added an special Version that includes the ReSharper annotations for better code analysis, therfore the JetBrains.Annotations.dll is nessesary, this contains no logic whatsoever just attributes to decorate your classes/properties/methods to help Resharper analyse your code while developing. If you do not use ReSharper now, you should really consider it.
 
 To use the wrapper you have to
 

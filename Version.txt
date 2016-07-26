@@ -1,6 +1,0 @@
-v1.0.726.2
-* Bittrex limits the calls to 1 authorized call per second and 1 public call per second.
-  The wrapper now enforces that limit. Calls that violate that limit will be queued an processed as soon as possible.
-
-v1.0.719.1
-* All Methods are implemented
